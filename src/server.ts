@@ -16,7 +16,7 @@ app.use(
 
 // Hello World route
 app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Hello World from server.ts!" });
+  res.json({ message: "hi deb" });
 });
 
 // Start the server
