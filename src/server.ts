@@ -9,7 +9,7 @@ app.use(cors());
 
 // Hello World route
 app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Hello World!" });
+  res.json({ message: "Hello World from server.ts!" });
 });
 
 // Start the server
